@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Danfo&family=Jersey+25&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Madimi+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Reddit+Mono:wght@200..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Syne:wght@400..800&family=Tilt+Neon&family=Whisper&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+    font-family: "Roboto", sans-serif;
+    height: 15vh;
+}
+
+div nav .Navbar img{
+    width: 10vh;
+    height: 10vh;
+}
+
+div nav .Navbar {
+    display: flex;
+    align-items: center;
+}
+
+div nav .Section-1 ul{
+    display: flex;
+    font-size: 25px;
+    gap: 2rem;
+    list-style: none;
+}
+
+div nav .Section-1 a{
+    text-decoration: none;
+    font-weight: 500;
+    padding: 5px 10px;
+    transition: all 0.5s ease;
+}
+
+div nav .Section-2 button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    padding: 9px;
+    border: none;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    transition: all 0.6s ease;
+    gap: 5px;
+}
+
+div main .Wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Roboto",sans-serif;
+}
+
+div main .Wrapper-group span{
+    color: red;
+}
+
+div main .Wrapper-group{
+    width: 100vh;
+    font-size: 25px;
+}
+
+div main .Wrapper-group-2 img{
+    animation: call 1s alternate infinite linear;
+}
+
+div main .Wrapper .Wrapper-button{
+    display: flex;
+    gap: 2rem;
+    margin-top: 15px;
+    font-family: "Roboto", sans-serif;
+}
+
+div main .Wrapper-button h1{
+    padding: 15px 50px;
+    background-color: black;
+    opacity: 0.95;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 25px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+
+div main .Wrapper-button span{
+    color: black;
+    padding: 15px 50px;
+    font-family: "Roboto",sans-serif;
+    border: 2px solid black;
+    transition: all 0.5s ease;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+div section .Section-group{
+    display: flex;
+    justify-content: space-around;
+    flex:1;
+    z-index: 1;
+    gap: 1rem;
+}
+
+div section .Section-group .Section-3{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding:25px;
+    border: 2px solid black;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    box-shadow: unset 70vh 0 0 0 black;
+    transition: all 0.5s ease;
+    margin-top: 20vh;
+    border-radius: 5px;
+}
+
+div section .Section-group .Section-3 h1{
+    background-color: black;
+    text-align: center;
+    color: white;
+    width: 55px;
+    padding:10px;
+    border-radius: 100px;
+}
+
+div section .Section-group .Section-3 p{
+    width: 300px;
+    margin-top: 10px;
+}
+
+div section .input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+div section .input input{
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    background-color: black;
+}
+
+div section input[type="search"]{
+    color: white;
+    transition: all 0.5s ease;
+    width: 40vh;
+}
+
+div footer .Footer {
+    background-color: #0f172a;
+    padding:30px;
+}
+
+div footer .Footer .Footer-group{
+    display: flex;
+    gap: 0.50rem;
+    color: white;
+    font-size: 40px;
+}
+
+div footer .Footer-group i{
+    transition: all 0.5s ease;
+}
+
+div footer #line{
+    margin-top: 10px;
+}
+
+div footer .Footer-group-2 img{
+    width: 20vh;
+    height: 20vh;
+}
+
+div footer .Wrapper-footer .Footer-group-2{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;;
+    color: white;
+    gap: 1rem;
+    height: 35vh;
+  }
+  
+  div footer .Wrapper-footer{
+    display: flex;
+    flex-direction: row;
+  }
+
+  div footer .Footer-group-section p{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 60%;
+    font-size: 20px;
+  }
+
+  div footer .Footer-group-section #paragraph-2{
+    margin-top: 10px;
+  }
+
+  div footer .Footer-group-3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+  }
+
+  div footer .Footer-3 h1{
+    font-family: "Roboto", sans-serif;
+    color: white;
+    margin-top: 10px;
+  }
+
+  @media (max-width:1200px){
+    div nav{
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+    }
+
+    div .Wrapper{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 2rem;
+        margin-top: 15rem;
+    }
+
+    div .Wrapper-group-2 img{
+        width: 40vh;
+        height: 40vh;
+    }
+
+    div .Wrapper-button{
+        display: flex;
+        justify-content: center;
+    }
+
+    div section .Section-group{
+        display:grid;
+        grid-template-columns: repeat(2, 350px);
+    }
+  }
+
+  @media (max-width : 364px){
+    div nav .Section-1 ul{
+        font-size: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    div main .Wrapper-group{
+        font-size: 15px;
+        width: 40vh;
+    }
+     div .Wrapper{
+        margin-top: 25rem;
+     }
+    div main .Wrapper-group-2 img {
+        width: 18vh;
+        height:18vh;
+    }
+    div main .Wrapper-button h1 {
+        text-align: center;
+        padding: 15px 15px;
+        font-size: 15px;
+    }
+    div section .Section-group {
+        display: grid;
+        grid-template-columns: repeat(1, 600px);
+        align-items: center;
+        padding: 3px;
+    }
+    div .Section-3{
+        width: 46.5vh;
+    }
+    div footer .Footer-group-section p{
+        text-align: center;
+        font-size: 20px;
+        width: 40vh;
+    }
+    div footer .Wrapper-footer{
+        display: flex;
+        flex-direction: column;
+    } 
+  }
